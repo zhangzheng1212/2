@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/201215909/!svn/ver/56/2/WeichatAPI
+END
+xmlparse.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/201215909/!svn/ver/56/2/WeichatAPI/xmlparse.php
+END
+WXBizMsgCrypt.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/201215909/!svn/ver/56/2/WeichatAPI/WXBizMsgCrypt.php
+END
+sha1.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/201215909/!svn/ver/56/2/WeichatAPI/sha1.php
+END
+errorCode.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/201215909/!svn/ver/56/2/WeichatAPI/errorCode.php
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/201215909/!svn/ver/56/2/WeichatAPI/Readme.txt
+END
+pkcs7Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/201215909/!svn/ver/56/2/WeichatAPI/pkcs7Encoder.php
+END

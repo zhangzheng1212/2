@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode
+END
+qrconst.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrconst.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/LICENSE
+END
+qrbitstream.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrbitstream.php
+END
+qrspec.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrspec.php
+END
+qrmask.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrmask.php
+END
+qrsplit.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrsplit.php
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/VERSION
+END
+qrencode.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrencode.php
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/CHANGELOG
+END
+qrinput.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrinput.php
+END
+qrtools.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrtools.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/index.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/README
+END
+qrconfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrconfig.php
+END
+qrlib.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrlib.php
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/INSTALL
+END
+qrrscode.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrrscode.php
+END
+qrimage.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/qrimage.php
+END
+phpqrcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/201215909/!svn/ver/79/2/PayTool/example/phpqrcode/phpqrcode.php
+END

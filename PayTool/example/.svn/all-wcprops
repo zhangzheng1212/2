@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/201215909/!svn/ver/79/2/PayTool/example
+END
+refundquery.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/201215909/!svn/ver/79/2/PayTool/example/refundquery.php
+END
+WxPay.MicroPay.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/201215909/!svn/ver/79/2/PayTool/example/WxPay.MicroPay.php
+END
+qrcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/201215909/!svn/ver/79/2/PayTool/example/qrcode.php
+END
+native_notify.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/201215909/!svn/ver/79/2/PayTool/example/native_notify.php
+END
+log.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/201215909/!svn/ver/79/2/PayTool/example/log.php
+END
+orderquery.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/201215909/!svn/ver/79/2/PayTool/example/orderquery.php
+END
+micropay.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/201215909/!svn/ver/79/2/PayTool/example/micropay.php
+END
+refund.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/201215909/!svn/ver/79/2/PayTool/example/refund.php
+END
+jsapi.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/201215909/!svn/ver/79/2/PayTool/example/jsapi.php
+END
+native.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/201215909/!svn/ver/82/2/PayTool/example/native.php
+END
+WxPay.JsApiPay.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/201215909/!svn/ver/79/2/PayTool/example/WxPay.JsApiPay.php
+END
+WxPay.NativePay.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/201215909/!svn/ver/79/2/PayTool/example/WxPay.NativePay.php
+END
+download.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/201215909/!svn/ver/79/2/PayTool/example/download.php
+END
+notify.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/201215909/!svn/ver/79/2/PayTool/example/notify.php
+END

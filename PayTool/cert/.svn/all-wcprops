@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/201215909/!svn/ver/79/2/PayTool/cert
+END
+apiclient_key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/201215909/!svn/ver/79/2/PayTool/cert/apiclient_key.pem
+END
+apiclient_cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/201215909/!svn/ver/79/2/PayTool/cert/apiclient_cert.pem
+END

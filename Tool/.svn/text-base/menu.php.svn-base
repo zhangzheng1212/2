@@ -1,0 +1,91 @@
+<?php
+@header('Content-type: text/html;charset=UTF-8');
+include_once "logger.php";
+class menu{
+	
+	private $appid = "wxb391f9c7df494517";//填写appid
+	private $secret = "49e7715615a18f1a050c793609f48622";//填写secret
+	private $log;
+	private $token ="215kAr6Q0LJ03AMNfqcdHftl987-jU6SRUQhFsslQCMZF_yonVWQxG7ke6l7BqX4S9sEEGkAStjwxaAPErUkgJWVP1Cn5ihQ8WZ-MGQodeyvUx4IIwonOBnNa91uvNVkLMFdAHATUN";
+	
+	
+	public function menu(){
+		$this->log = new logger();
+	}
+	
+	public function getmenu() {
+		//$this->getToken();
+		$url = "https://api.weixin.qq.com/cgi-bin/menu/get?access_token={$this->token}";
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL,$url);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		$a = curl_exec($ch);
+		echo $a;
+		$this->log->log1($a);
+		//$strjson=json_decode($a);
+		//$this->token = $strjson->access_token;
+		curl_close($ch); 
+	}
+	
+	public function getToken(){
+		
+		$url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$this->appid}&secret={$this->secret}";
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL,$url);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		$a = curl_exec($ch);
+		$strjson=json_decode($a);
+		$this->token = $strjson->access_token;
+		$this->log->log1($this->token);
+		curl_close($ch); 
+	}
+	
+	public function setMenu(){
+			//$this->getToken();
+			$post='{
+					 "button":[
+					 {	
+						  "type":"click",
+						  "name":"今日歌曲",
+						  "key":"V1001_TODAY_MUSIC"
+					  },
+					  {
+						   "name":"菜单",
+						   "sub_button":[
+						   {	
+							   "type":"view",
+							   "name":"搜索",
+							   "url":"http://www.soso.com/"
+							},
+							{
+							   "type":"view",
+							   "name":"视频",
+							   "url":"http://v.qq.com/"
+							},
+							{
+							   "type":"click",
+							   "name":"赞一下我们",
+							   "key":"V1001_GOOD"
+							}]
+					   }]
+				 }';  //提交内容
+			 
+			$url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token={$this->token}"; //查询地址 
+			$ch = curl_init();//新建curl
+			curl_setopt($ch, CURLOPT_URL, $url);//url  
+			curl_setopt($ch, CURLOPT_POST, 1);  //post
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+			curl_setopt($ch, CURLOPT_POSTFIELDS, $post);//post内容  
+			$res = curl_exec($ch); //输出 
+			echo $res;
+			$this->log->log1($res); 
+			curl_close($ch);
+	}
+} 
+
+?>
