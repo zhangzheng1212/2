@@ -7,4 +7,4 @@
 
 demo体验  请扫描微信平台二维码进行体验
 
-![image](https://github.com/zhangzheng1212/2/Qcode.png)
+![扫一扫微信测试平台](https://github.com/zhangzheng1212/2/raw/master/Qcode.png) 
